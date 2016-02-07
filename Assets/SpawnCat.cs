@@ -22,7 +22,7 @@ public class SpawnCat : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		timer += Time.deltaTime;
-		if (timer > 3) {
+		if (timer > 2.5f) {
 			spawnCat();
 			timer = 0;
 
